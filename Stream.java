@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-public class Stream implements Common {
+public class Stream extends Common {
 
     @Override
     public  List<Integer> extractEvenNumbers(List<Integer> numbers) {

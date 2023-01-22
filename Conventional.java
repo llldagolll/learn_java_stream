@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Conventional implements Common {
+public class Conventional extends Common {
     public static void main(String[] args) {
     }
 

@@ -5,11 +5,11 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 
-interface Common {
+abstract class Common {
 
-    List<Integer> extractEvenNumbers(List<Integer> numbers);
-     List<Integer> doubleListNumbers(List<Integer> numbers);
-     List<Integer> reverseOrder(List<Integer> numbers);
+    abstract List<Integer> extractEvenNumbers(List<Integer> numbers);
+     abstract List<Integer> doubleListNumbers(List<Integer> numbers);
+     abstract List<Integer> reverseOrder(List<Integer> numbers);
 }
 
 
