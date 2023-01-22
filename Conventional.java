@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Conventional extends Global implements Common {
+public class Conventional implements Common {
     public static void main(String[] args) {
     }
 
@@ -28,7 +28,6 @@ public class Conventional extends Global implements Common {
 
     @Override
     public List<Integer> reverseOrder(List<Integer> numbers) {
-//        List<Integer> reversedNumers = new ArrayList<>();
         Collections.reverse(numbers);
         return numbers;
     }
